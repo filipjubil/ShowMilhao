@@ -5,7 +5,7 @@ namespace ShowMilhao;
 List <Questao> listaQuestoes = new ListViewCachingStrategy<Questao>();
 List <int> listaQuestoesRespondidas = new Lista<int>();
 Questao QuestaoCorrente;
-public Gerenciador(Label labelPergunta,btnResp01...,Button btnResp05)
+public Gerenciador(Label labelPergunta,Button btnResp01,Button btnResp02, Button btnResp03,Button btnResp04,Button btnResp05)
 
 {
 
@@ -13,7 +13,7 @@ public Gerenciador(Label labelPergunta,btnResp01...,Button btnResp05)
 
 } 
 
-void CriarQuestoes(Label labelPergunta,Button btnResp01,Button btnResp02,..,Button btnResp05)
+void CriarQuestoes(Label labelPergunta,Button btnResp01,Button btnResp02,Button btnResp03,Button btnResp04,Button btnResp05)
 {
 
 List<Questao> ListaQuestoes = new List<Questao>();
@@ -167,7 +167,7 @@ var q1 = new Questao();
         q12.Resposta4 = "Egito";
         q12.Resposta5 = "Piramede de vidro";
 
-        q12.RespostaCerta = 3;
+        q12.RespostaCerta = 1;
         q12.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaTodasQuestoes.Add(q12);
 
@@ -203,7 +203,7 @@ var q1 = new Questao();
         q15.Resposta4 = "chocolate";
         q15.Resposta5 = "banana";
 
-        q15.RespostaCerta = 1;
+        q15.RespostaCerta = 3;
         q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaTodasQuestoes.Add(q15);
 
@@ -211,7 +211,7 @@ var q1 = new Questao();
         q16.Pergunta = "Qual o cantor sertanejo que conhecido por CABARE'?";
         q16.Resposta1 = "luan santana ";
         q16.Resposta2 = "maiara e maraisa";
-        q16.Resposta3 = "paulo guustavo";
+        q16.Resposta3 = "paulo gustavo";
         q16.Resposta4 = "leonardo";
         q16.Resposta5 = "eduardo costa";
 
@@ -1268,7 +1268,7 @@ public void ProximaQuestao()
 
 }
    public int pontuacao{get;private set;}
-   int nivel Atual=0;,
+   int nivel Atual=0; 
    void Inicializar()
 {
   pontuacao=0;
@@ -1276,7 +1276,7 @@ public void ProximaQuestao()
   ProximaQuestao();
 
 }
-    public async void VerificaCorreta(int rr)
+    public async void VerificaCorreta(int rr);
     {
      if(questaoCorrente.EstaCorreto(rr))
     {
@@ -1287,21 +1287,21 @@ public void ProximaQuestao()
 }
         else
     
-         awaint DisplayAlert("Game over","voce Perdeu!","ok");
-         Inicializar();
+         awaint DisplayAlert("Game over","voce Perdeu!"ok");
+         Inicializar();S
     }
 
 {
         Void AdicionaPontuacao(int rr)
      {    
-        if(==1)
+        if(1);
         Pontuacao=1000;
-        else if (n==2)
+        else if (n2)
         Pontuacao=2000;
         else if (n==3)
         Pontuacao=5000;
         else if (n==4)
-        Pontuacao==10 000;
+        Pontuacao ==10 000 ;
         else if (n==5)
         Pontuacao=20 000;
         else if (n==6)
