@@ -271,12 +271,12 @@ var q1 = new Questao();
         listaTodasQuestoes.Add(q20);
 
         var q21 = new Questao();
-        q21.Pergunta = "Qual é a principal religião da Índia?";
-        q21.Resposta1 = "Cristianismo";
-        q21.Resposta2 = "Hinduísmo";
-        q21.Resposta3 = "Islamismo";
-        q21.Resposta4 = "Budismo";
-        q21.Resposta5 = "Judaísmo";
+        q21.Pergunta = "Qual sistema que fica armazenado informacoes de toda a populacao brasileira ";
+        q21.Resposta1 = "SUS";
+        q21.Resposta2 = "STF";
+        q21.Resposta3 = "STE";
+        q21.Resposta4 = "GLOBO";
+        q21.Resposta5 = "GOV.BR";
 
         q21.RespostaCerta = 2;
         q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
